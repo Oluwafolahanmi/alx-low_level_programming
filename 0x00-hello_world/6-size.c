@@ -4,6 +4,7 @@
  *
  * Return: 0 for success
  */
+
 int main(void)
 {
 	printf("size of char: %zu byte(s)\n", sizeof(char));
