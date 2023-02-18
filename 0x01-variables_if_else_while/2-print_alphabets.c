@@ -3,11 +3,11 @@
 /**
  * main - main function
  *
- * Return: successful at 0
+ * Return: to 0
  */
 int main(void)
 {
-	char i;
+	int i;
 
 	for (i = 'a' ; i <= 'z' ; i++)
 		putchar(i);
