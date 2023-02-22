@@ -5,24 +5,21 @@
  */
 int main(void)
 {
-	int i;
-	int j;
-	int k;
-	int l;
+	int i = 0;
+	long a = 0, b = 1, next;
 
-	i = 0;
-	j = 1;
-	k = i + j;
-	for (l = 1 ; l <= 50 ; l++)
+	while (i < 50)
 	{
-		printf("%d", k);
-		if (l != 50)
+		next = a + b;
+		a = b;
+		b = next;
+		printf("%lu", next);
+		if (i < 49)
 		{
 			printf(", ");
 		}
-		i = j;
-		j = k;
-		k = i + j;
+		i++;
 	}
-	printf("\n");
+	putchar('\n');
+	return (0);
 }
