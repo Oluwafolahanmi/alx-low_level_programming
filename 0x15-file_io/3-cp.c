@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "3-main.c"
 
 /**
  * _buffer - function that allocates 1024 bytes to buffer
